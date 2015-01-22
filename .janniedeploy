@@ -9,7 +9,6 @@
 	"tests": [
 	],
 	"ignore": [
-		".gitignore",
 		".janniedeploy",
 		"composer.json",
 		"composer.lock",
@@ -19,7 +18,6 @@
 		"web/.sass-cache/",
 		"web/assets/",
 		"web/node_modules/",
-		"web/bower_components/",
-		".git/"
+		"web/bower_components/"
 	]
 }
