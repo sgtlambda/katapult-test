@@ -14,10 +14,10 @@
 		"composer.json",
 		"composer.lock",
 		".git/",
-		"web/package.json"
+		"web/package.json",
 		"web/Gruntfile.js",
 		"web/assets/",
 		"web/node_modules/",
-		"web/bower_components/",
+		"web/bower_components/"
 	]
 }
