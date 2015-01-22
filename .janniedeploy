@@ -6,6 +6,8 @@
 		'bower install',
 		'grunt build'
 	],
+	'tests': [
+	],
 	'ignore': [
 		'.git/',
 		'.gitignore',

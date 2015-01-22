@@ -1,5 +1,5 @@
-node_modules/
 vendor/
-bower_components/
-.sass-cache/
-dist/
+web/node_modules/
+web/bower_components/
+web/.sass-cache/
+web/dist/
