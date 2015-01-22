@@ -17,7 +17,7 @@
 		"web/Gruntfile.js",
 		"web/assets/",
 		"web/node_modules/",
-		"web/bower_components/"
-		".git/",
+		"web/bower_components/",
+		".git/"
 	]
 }
