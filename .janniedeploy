@@ -1,0 +1,19 @@
+{
+	'build': [
+		'composer install',
+		'npm install',
+		'bower install',
+		'grunt build'
+	],
+	'ignore': [
+		'assets',
+		'node_modules',
+		'bower_components',
+		'.gitignore',
+		'.janniedeploy',
+		'composer.json',
+		'composer.lock',
+		'Gruntfile.js',
+		'package.json'
+	]
+}
