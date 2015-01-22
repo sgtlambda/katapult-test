@@ -1,24 +1,23 @@
 {
-	'build': [
-		'composer install',
-		'cd web',
-		'npm install',
-		'bower install',
-		'grunt build'
+	"build": [
+		"composer install",
+		"cd web",
+		"npm install",
+		"bower install",
+		"grunt build"
 	],
-	'tests': [
+	"tests": [
 	],
-	'ignore': [
-		'.git/',
-		'.gitignore',
-		'.janniedeploy',
-		'composer.json',
-		'composer.lock',
-		'web/assets/',
-		'web/node_modules/',
-		'web/bower_components/',
-		'web/Gruntfile.js',
-		'web/package.json',
-		
+	"ignore": [
+		".git/",
+		".gitignore",
+		".janniedeploy",
+		"composer.json",
+		"composer.lock",
+		"web/assets/",
+		"web/node_modules/",
+		"web/bower_components/",
+		"web/Gruntfile.js",
+		"web/package.json"
 	]
 }
