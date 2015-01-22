@@ -1,17 +1,5 @@
 {
   "name": "janniedeploy-testrepo",
-  "version": "0.0.0",
-  "authors": [
-    "JM Versteeg <janmerijnversteeg@gmail.com>"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "bourbon": "~4.1.1"
   }
