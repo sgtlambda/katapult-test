@@ -1,10 +1,6 @@
 {
   "build":  [
-    "composer install",
-    "cd web",
-    "npm install",
-    "bower install",
-    "grunt build"
+    "composer install"
   ],
   "deploy": [
     "ln -s ../shared/.env ./.env",
