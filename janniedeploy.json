@@ -1,0 +1,27 @@
+{
+  "build":  [
+    "composer install",
+    "cd web",
+    "npm install",
+    "bower install",
+    "grunt build"
+  ],
+  "deploy": [
+    "ln -s ../shared/.env ./.env",
+    "ln -s ../shared/uploads ./uploads"
+  ],
+  "tests":  [
+  ],
+  "ignore": [
+    "janniedeploy.json",
+    "composer.json",
+    "composer.lock",
+    "web/bower.json",
+    "web/package.json",
+    "web/Gruntfile.js",
+    "web/.sass-cache/",
+    "web/assets/",
+    "web/node_modules/",
+    "web/bower_components/"
+  ]
+}
