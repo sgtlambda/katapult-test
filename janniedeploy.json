@@ -2,7 +2,7 @@
   "build":  [
     "composer install"
   ],
-  "deploy": [
+  "remote": [
     "ln -s ../shared/.env ./.env",
     "ln -s ../shared/uploads ./uploads"
   ],
