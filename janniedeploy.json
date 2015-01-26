@@ -1,6 +1,10 @@
 {
   "build":  [
-    "composer install"
+    "composer install",
+    "cd web",
+    "npm install",
+    "bower install",
+    "grunt build"
   ],
   "remote": [
     "ln -s ../shared/.env ./.env",
