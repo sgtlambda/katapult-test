@@ -2,15 +2,22 @@
   "build":  [
     "composer install",
     "cd web",
-    "npm install",
-    "bower install",
-    "grunt build"
+    {
+      "production":  [
+        "npm install --no-dev",
+        "bower install --production",
+        "grunt build"
+      ],
+      "development": [
+        "npm install",
+        "bower install",
+        "grunt dev"
+      ]
+    }
   ],
-  "remote": [
+  "deploy": [
     "ln -s ../shared/.env ./.env",
     "ln -s ../shared/uploads ./uploads"
-  ],
-  "tests":  [
   ],
   "ignore": [
     "janniedeploy.json",
