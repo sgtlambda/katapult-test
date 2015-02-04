@@ -2,7 +2,7 @@
   "build":  [
     "composer install --no-dev",
     "cd web",
-    "npm install --no-dev",
+    "npm install",
     "bower install --production",
     "grunt build"
   ],
@@ -11,6 +11,7 @@
     "ln -s ../shared/uploads ./uploads"
   ],
   "ignore": [
+    "README.md",
     "composer.json",
     "composer.lock",
     "web/bower.json",
