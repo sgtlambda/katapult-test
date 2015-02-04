@@ -2,25 +2,15 @@
   "build":  [
     "composer install",
     "cd web",
-    {
-      "production":  [
-        "npm install --no-dev",
-        "bower install --production",
-        "grunt build"
-      ],
-      "development": [
-        "npm install",
-        "bower install",
-        "grunt dev"
-      ]
-    }
+    "npm install --no-dev",
+    "bower install --production",
+    "grunt build"
   ],
   "deploy": [
     "ln -s ../shared/.env ./.env",
     "ln -s ../shared/uploads ./uploads"
   ],
   "ignore": [
-    "janniedeploy.json",
     "composer.json",
     "composer.lock",
     "web/bower.json",
