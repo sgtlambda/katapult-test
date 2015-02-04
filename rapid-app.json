@@ -1,6 +1,6 @@
 {
   "build":  [
-    "composer install",
+    "composer install --no-dev",
     "cd web",
     "npm install --no-dev",
     "bower install --production",
