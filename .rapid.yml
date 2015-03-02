@@ -1,9 +1,15 @@
+test:
+  - vendor/bin/phpunit
+  - cd web
+  - mocha -r should -R spec
+
 build:
   - composer install --no-dev
   - cd web
   - npm install
   - bower install --production
   - grunt build
+
 deploy:
   - ln -s ../shared/.env ./.env
   - ln -s ../shared/uploads ./uploads
