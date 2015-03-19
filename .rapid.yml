@@ -1,7 +1,7 @@
 test:
   - vendor/bin/phpunit
   - cd web
-  - mocha -r should -R spec
+  - mocha -r should
 
 build:
   - composer install --no-dev
