@@ -5,8 +5,8 @@ build:
   - composer install --no-dev
 
 clean:
-  - !web/
-  - !vendor/
+  - "!web/"
+  - "!vendor/"
 
 deploy:
   - ln -s ../shared/.env ./.env
