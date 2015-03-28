@@ -1,14 +1,12 @@
 test:
   - vendor/bin/phpunit
-  - cd web
-  - mocha -r should
 
 build:
   - composer install --no-dev
-  - cd web
-  - npm install
-  - bower install --production
-  - grunt build
+
+clean:
+  - !web/
+  - !vendor/
 
 deploy:
   - ln -s ../shared/.env ./.env
