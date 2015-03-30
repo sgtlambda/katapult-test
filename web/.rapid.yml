@@ -1,9 +1,10 @@
+install:
+  - npm install
+
 test:
-  - mocha -r should
+  - mocha
 
 build:
-  - npm install
-  - bower install --production
   - grunt build
 
 clean:

@@ -1,13 +1,9 @@
+install:
+  - composer install
+
 test:
   - vendor/bin/phpunit
-
-build:
-  - composer install --no-dev
 
 clean:
   - "!web"
   - "!vendor"
-
-deploy:
-  - ln -s ../shared/.env ./.env
-  - ln -s ../shared/uploads ./uploads
