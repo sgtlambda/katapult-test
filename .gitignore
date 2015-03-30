@@ -1,6 +1,5 @@
 vendor/
 web/node_modules/
-web/bower_components/
 web/.sass-cache/
 web/dist/
 .idea/

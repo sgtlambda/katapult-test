@@ -1,0 +1,9 @@
+install:
+  - composer install
+
+test:
+  - vendor/bin/phpunit
+
+clean:
+  - "!web"
+  - "!vendor"

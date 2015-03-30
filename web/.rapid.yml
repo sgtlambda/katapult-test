@@ -1,0 +1,11 @@
+install:
+  - npm install
+
+test:
+  - mocha
+
+build:
+  - grunt build
+
+clean:
+  - "!dist"

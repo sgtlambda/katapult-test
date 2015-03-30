@@ -1,9 +1,10 @@
 {
-  "name": "janniedeploy-testrepo",
+  "name":            "Rapid-test",
   "devDependencies": {
-    "bower": "^1.3.12",
-    "grunt": "^0.4.5",
+    "bower":              "^1.3.12",
+    "grunt":              "^0.4.5",
     "grunt-contrib-sass": "^0.8.1",
-    "load-grunt-tasks": "^2.0.0"
+    "load-grunt-tasks":   "^2.0.0",
+    "bourbon":            "^4.2.1"
   }
 }
