@@ -4,6 +4,9 @@ install:
 test:
   - vendor/bin/phpunit
 
-clean:
+purge:
   - "!web"
   - "!vendor"
+
+persistent:
+  - .env
