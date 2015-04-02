@@ -1,10 +1,15 @@
+# Commands specified under the "install" directive will be ran first, in descending order of directory level.
+# If any of these commands exits with an exit code other than 0, the build will be terminated.
 install:
   - composer install
 
-test:
+# Commands specified under the "build" directive will be ran after the "install" commands have completed on the
+# directory and all of its subdirectories. If any of these commands exits with an exit code other than 0, the build
+# will be terminated.
+build:
   - vendor/bin/phpunit
 
-# Files and directives specified under the "purge" directive will be deleted AFTER the install, build and test
+# Files and directories specified under the "purge" directive will be deleted AFTER the install, build and test
 # directives have run, but BEFORE the package is shipped to the server. The list is treated as a single array of
 # globs and can therefore be used as a "whitelist" as well by exclusively specifying negating globs
 purge:
