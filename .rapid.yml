@@ -10,7 +10,7 @@ install:
 # will be terminated.
 
 build:
-  - vendor/bin/phpunit
+  - sh ./vendor/bin/phpunit
 
 # Files and directories specified under the "purge" directive will be deleted AFTER the install, build and test
 # directives have run, but BEFORE the package is shipped to the server. The list is treated as a single array of
