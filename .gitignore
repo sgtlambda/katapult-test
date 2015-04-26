@@ -3,3 +3,4 @@ web/node_modules/
 web/.sass-cache/
 web/dist/
 .idea/
+.katapult
