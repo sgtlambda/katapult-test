@@ -1,11 +1,5 @@
 install:
 
-test:
-  - mocha
-
 build:
 
 purge:
-
-persistent:
-  - uploads
