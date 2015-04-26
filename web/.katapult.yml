@@ -1,14 +1,8 @@
 install:
   - npm install
 
-test:
-  - mocha
-
 build:
   - grunt build
 
 purge:
   - "!dist"
-
-persistent:
-  - uploads
