@@ -4,3 +4,4 @@ web/.sass-cache/
 web/dist/
 .idea/
 .katapult
+.katapult.json
