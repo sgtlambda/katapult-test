@@ -15,6 +15,7 @@ build:
 # globs and can therefore be used as a "whitelist" as well by exclusively specifying negating globs
 
 purge:
+  - "!web"
 
 # Files and directories specified under the "shared" directive will persist through multiple deploys.
 # This is achieved by creating a symbolic link to a corresponding location in ../shared.
