@@ -2,7 +2,9 @@ install:
   - npm install
 
 build:
-  - grunt build
+  - cmd: grunt build
+    input: assets/**/*
+    output: dist/**/*
 
 purge:
   - "!dist"
