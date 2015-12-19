@@ -1,10 +1,12 @@
 install:
   - cmd: npm install
-    input: assets/**/*
-    output: dist/**/*
+    input: package.json
+    output: node_modules/**/*
 
 build:
-  - grunt build
+  - cmd: grunt build
+    input: assets/**/*
+    output: dist/**/*
 
 purge:
   - "!dist"
