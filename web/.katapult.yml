@@ -1,5 +1,7 @@
 install:
-  - npm install
+  - cmd: npm install
+    input: assets/**/*
+    output: dist/**/*
 
 build:
   - grunt build
