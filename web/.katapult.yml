@@ -1,8 +1,8 @@
 install:
-  - cmd: npm install
+  - npm install
 
 build:
-  - cmd: grunt build
+  - grunt build
 
 purge:
   - "!dist"
