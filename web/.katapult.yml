@@ -1,5 +1,7 @@
 install:
-  - npm install
+  - cmd: npm install
+    input: package.json
+    output: node_modules/**/*
 
 build:
   - cmd: grunt build
