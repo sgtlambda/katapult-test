@@ -3,6 +3,9 @@
 # If any of these commands exits with an exit code other than 0, the build will be terminated.
 
 install:
+  - cmd: composer install
+    input: composer.lock
+    output: vendor/**/*
 
 # Commands specified under the "build" directive will be ran after the "install" commands have completed on the
 # directory and all of its subdirectories. If any of these commands exits with an exit code other than 0, the build
