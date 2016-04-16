@@ -6,7 +6,7 @@ install:
 build:
   - cmd: node_modules/gulp/bin/gulp.js
     input: assets/**/*
-    output: dist/**/*
+    output: build/**/*
 
 purge:
   - "!dist"
