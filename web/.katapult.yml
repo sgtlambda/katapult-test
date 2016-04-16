@@ -4,7 +4,7 @@ install:
     output: node_modules/**/*
 
 build:
-  - cmd: grunt build
+  - cmd: node_modules/gulp/bin/gulp.js
     input: assets/**/*
     output: dist/**/*
 
