@@ -9,4 +9,4 @@ build:
     output: build/**/*
 
 purge:
-  - "!dist"
+  - "!build"
