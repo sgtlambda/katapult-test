@@ -1,12 +1,12 @@
 install:
   - cmd: npm install
     input: package.json
-    output: node_modules/**/*
+    output: node_modules
 
 build:
   - cmd: node_modules/gulp/bin/gulp.js
-    input: assets/**/*
-    output: build/**/*
+    input: assets
+    output: build
 
 purge:
   - "!build"
